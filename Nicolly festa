@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniversário Nicolly Eduarda</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Festa de Aniversário de 15 Anos</h1>
+        <h2>Nicolly Eduarda</h2>
+    </header>
+
+    <section class="intro">
+        <p>Você está convidado para uma noite mágica em celebração aos 15 anos da Nicolly Eduarda!</p>
+        <p><strong>Data:</strong> 15 de março de 2025</p>
+        <p><strong>Local:</strong> [Informe o endereço]</p>
+    </section>
+
+    <section class="confirmation">
+        <h3>Confirme sua Presença</h3>
+        <form action="#" method="POST">
+            <label for="name">Seu Nome:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Seu E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="rsvp">Você vai comparecer?</label>
+            <select id="rsvp" name="rsvp" required>
+                <option value="">Selecione...</option>
+                <option value="sim">Sim</option>
+                <option value="nao">Não</option>
+            </select>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section class="messages">
+        <h3>Deixe suas Mensagens e Fotos</h3>
+        <textarea placeholder="Escreva sua mensagem para a Nicolly..."></textarea>
+        <input type="file" accept="image/,video/">
+        <button type="submit">Enviar Mensagem</button>
+    </section>
+
+    <footer>
+        <p>Esperamos ver você lá!</p>
+        <p>&copy; 2025 Festa de Aniversário da Nicolly Eduarda</p>
+    </footer>
+</body>
+</html>
